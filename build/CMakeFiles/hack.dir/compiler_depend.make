@@ -771,21 +771,28 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_from_padded_tensor_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_from_padded_tensor_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_jagged_dummy.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_jagged_dummy_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_jagged_dummy_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_lengths.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_lengths_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_lengths_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_max_seqlen.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_max_seqlen_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_max_seqlen_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_min_seqlen.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_min_seqlen_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_min_seqlen_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_offsets.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_offsets_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_offsets_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_ragged_idx.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_ragged_idx_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_ragged_idx_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_values.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_values_copy.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_values_copy_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_values_copy_ops.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_values_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_values_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_select_backward.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_select_backward_native.h \
@@ -824,6 +831,7 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_view_from_jagged_copy.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_view_from_jagged_copy_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_view_from_jagged_copy_ops.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_view_from_jagged_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_view_from_jagged_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_new_zeros_with_same_feature_meta.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_new_zeros_with_same_feature_meta_native.h \
@@ -908,6 +916,7 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_saturate_weight_to_fp16_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_scaled_dot_product_attention_math.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_scaled_dot_product_attention_math_for_mps.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_scaled_dot_product_attention_math_for_mps_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_scaled_dot_product_attention_math_for_mps_ops.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_scaled_dot_product_attention_math_native.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_scaled_dot_product_attention_math_ops.h \
@@ -4464,6 +4473,7 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/order_preserving_flat_hash_map.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/overflows.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/overloaded.h \
+  /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/python_stub.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/qint32.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/qint8.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/quint2x4.h \
@@ -4709,10 +4719,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/custom_class_detail.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/library.h \
   /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/script.h \
-  /usr/include/alloca.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/assert.h \
   /usr/include/c++/13/algorithm \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
@@ -4917,6 +4923,25 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /usr/include/c++/13/utility \
   /usr/include/c++/13/variant \
   /usr/include/c++/13/vector \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
@@ -4936,6 +4961,7 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/tbb/tbb.h \
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
@@ -5015,37 +5041,35 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
-  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_list.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_max_align_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_offsetof.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/emmintrin.h \
+  /usr/lib/llvm-18/lib/clang/18/include/float.h \
+  /usr/lib/llvm-18/lib/clang/18/include/limits.h \
+  /usr/lib/llvm-18/lib/clang/18/include/mm_malloc.h \
+  /usr/lib/llvm-18/lib/clang/18/include/mmintrin.h \
+  /usr/lib/llvm-18/lib/clang/18/include/sanitizer/tsan_interface.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdarg.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdint.h \
+  /usr/lib/llvm-18/lib/clang/18/include/xmmintrin.h \
+  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
   /usr/local/include/opencv4/opencv2/calib3d.hpp \
   /usr/local/include/opencv4/opencv2/core.hpp \
   /usr/local/include/opencv4/opencv2/core/affine.hpp \
@@ -5068,6 +5092,7 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /usr/local/include/opencv4/opencv2/core/matx.hpp \
   /usr/local/include/opencv4/opencv2/core/matx.inl.hpp \
   /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
+  /usr/local/include/opencv4/opencv2/core/ocl.hpp \
   /usr/local/include/opencv4/opencv2/core/operations.hpp \
   /usr/local/include/opencv4/opencv2/core/optim.hpp \
   /usr/local/include/opencv4/opencv2/core/ovx.hpp \
@@ -5082,12 +5107,13 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /usr/local/include/opencv4/opencv2/core/version.hpp \
   /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
   /usr/local/include/opencv4/opencv2/dnn.hpp \
+  /usr/local/include/opencv4/opencv2/dnn/version.hpp \
   /usr/local/include/opencv4/opencv2/dnn/dict.hpp \
   /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
   /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp \
   /usr/local/include/opencv4/opencv2/dnn/layer.hpp \
+  /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
   /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
-  /usr/local/include/opencv4/opencv2/dnn/version.hpp \
   /usr/local/include/opencv4/opencv2/features2d.hpp \
   /usr/local/include/opencv4/opencv2/flann.hpp \
   /usr/local/include/opencv4/opencv2/flann/all_indices.h \
@@ -5124,7 +5150,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
   /usr/local/include/opencv4/opencv2/highgui.hpp \
   /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
   /usr/local/include/opencv4/opencv2/imgproc.hpp \
-  /usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp \
   /usr/local/include/opencv4/opencv2/ml.hpp \
   /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
   /usr/local/include/opencv4/opencv2/objdetect.hpp \
@@ -5191,8 +5216,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /usr/local/include/opencv4/opencv2/ml.hpp:
 
-/usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp:
-
 /usr/local/include/opencv4/opencv2/imgcodecs.hpp:
 
 /usr/local/include/opencv4/opencv2/highgui.hpp:
@@ -5249,11 +5272,37 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /usr/local/include/opencv4/opencv2/flann.hpp:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardtanh_backward_native.h:
+/usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardtanh_backward.h:
+/usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish_native.h:
+/usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
+
+/usr/local/include/opencv4/opencv2/dnn/dict.hpp:
+
+/usr/local/include/opencv4/opencv2/core/version.hpp:
+
+/usr/local/include/opencv4/opencv2/core/utils/logtag.hpp:
+
+/usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp:
+
+/usr/local/include/opencv4/opencv2/core/utility.hpp:
+
+/usr/local/include/opencv4/opencv2/core/types.hpp:
+
+/usr/local/include/opencv4/opencv2/core/saturate.hpp:
+
+/usr/local/include/opencv4/opencv2/core/persistence.hpp:
+
+/usr/local/include/opencv4/opencv2/core/optim.hpp:
+
+/usr/local/include/opencv4/opencv2/core/operations.hpp:
+
+/usr/local/include/opencv4/opencv2/core/ocl.hpp:
+
+/usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
+
+/usr/local/include/opencv4/opencv2/core/matx.inl.hpp:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardsigmoid_ops.h:
 
@@ -5305,8 +5354,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/grid_sampler_3d_backward.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/BFloat16-inl.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_weight_int4pack_mm_for_cpu_native.h:
 
 /usr/include/c++/13/system_error:
@@ -5346,6 +5393,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_fused_dropout.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/grid_sampler.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/DimVector.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/gelu_backward_meta.h:
 
@@ -5460,8 +5509,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fill_diagonal.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/frac.h:
-
-/usr/local/include/opencv4/opencv2/dnn/dict.hpp:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fft_rfftn.h:
 
@@ -5639,10 +5686,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/equal_native.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/equal.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/slow_conv_dilated3d.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/eq_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/ne_native.h:
@@ -5807,10 +5850,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/data_ops.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fill_diagonal_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/data_native.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/cumulative_trapezoid.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
@@ -5915,10 +5954,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/argwhere.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hann_window.h:
-
-/usr/include/c++/13/shared_mutex:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/scatter_meta.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/stack.h:
@@ -5930,10 +5965,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/cosine_similarity_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/square.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_amp_foreach_non_finite_check_and_unscale_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/jit/runtime/argument_spec.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/cosh.h:
 
@@ -6175,6 +6206,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/grid_sampler_2d_ops.h:
 
+/usr/lib/llvm-18/lib/clang/18/include/mm_malloc.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/bitwise_right_shift_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/geometric_native.h:
@@ -6184,10 +6217,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/expand.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/swapdims_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/DimVector.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/column_stack_ops.h:
 
@@ -6430,10 +6459,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/arctan_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/log_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardtanh.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/embedding_sparse_backward.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/as_strided_ops.h:
 
@@ -6859,8 +6884,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_upsample_nearest_exact3d_ops.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/sparse_resize_ops.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_upsample_nearest_exact3d_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_upsample_nearest_exact3d_meta.h:
@@ -6910,6 +6933,10 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_upsample_nearest_exact1d_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/random_native.h:
+
+/usr/local/include/opencv4/opencv2/core/utils/logger.hpp:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/feature_alpha_dropout_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_fused_adam.h:
 
@@ -6994,6 +7021,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_unsafe_masked_index_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_triton_scaled_dot_attention_native.h:
+
+/usr/include/tbb/tbb.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_unsafe_index_put.h:
 
@@ -7209,6 +7238,48 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/special_i0e_ops.h:
 
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/max_pool2d_with_indices_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/cudnn_grid_sampler_backward_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/unbind_copy_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/matrix_power_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/qscheme_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_weight_int8pack_mm.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/data/datasets/chunk.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fake_quantize_per_channel_affine_cachemask_backward.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_make_per_channel_quantized_tensor_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/MemoryOverlap.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_optional_filled_intlist.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/binary_cross_entropy_with_logits_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_functorch_fallback_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/q_scale.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/floor_divide_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/conv_transpose2d.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/Exception.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/version.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_functorch_fallback_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_ragged_idx_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/jit/frontend/name_mangler.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fft_hfftn_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/elu_backward_ops.h:
@@ -7252,8 +7323,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_cholesky_solve_helper.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/local/include/opencv4/opencv2/core/operations.hpp:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/special_erfinv.h:
 
@@ -7350,8 +7419,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_logcumsumexp_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/sym_size_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/view_as_complex_copy_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/core/dynamic_type.h:
 
@@ -7567,8 +7634,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_embedding_bag_per_sample_weights_backward_ops.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/masked_select_native.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_embedding_bag_per_sample_weights_backward.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/matrix_H.h:
@@ -7577,17 +7642,13 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_embedding_bag_ops.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/matrix_power_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/qscheme_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_weight_int8pack_mm.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/data/datasets/chunk.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_embedding_bag_forward_only_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/nll_loss2d_backward_native.h:
+
+/usr/local/include/opencv4/opencv2/core/matx.hpp:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/sparse_bsr_tensor_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/movedim_ops.h:
 
@@ -7638,6 +7699,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/baddbmm.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_cudnn_attention_forward_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardtanh_backward.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/maximum_ops.h:
 
@@ -7835,8 +7898,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/special_logsumexp_native.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish_backward.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/adaptive_avg_pool2d_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_cudnn_ctc_loss_ops.h:
@@ -7900,12 +7961,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fft_irfft.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/ceil_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/binary_cross_entropy_with_logits_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/MemoryOverlap.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_optional_filled_intlist.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_foreach_minimum.h:
 
@@ -8217,6 +8272,10 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_foreach_erf.h:
 
+/usr/local/include/opencv4/opencv2/core/ovx.hpp:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/types.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/embedding_backward_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fft_fftn.h:
@@ -8298,12 +8357,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/batch_norm_gather_stats_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/options/padding.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish_backward_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/cos_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/log2_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/celu.h:
 
@@ -8509,8 +8562,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_is_zerotensor_ops.h:
 
-/usr/local/include/opencv4/opencv2/core/utils/logtag.hpp:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/core/VariableHooksInterface.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_gather_sparse_backward.h:
@@ -8540,6 +8591,10 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_adaptive_avg_pool2d.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/core/QuantizerBase.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_optional_floatlist_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/WrapDimUtils.h:
 
 /usr/local/include/opencv4/opencv2/flann/allocator.h:
 
@@ -8612,6 +8667,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fft_ifft2_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_resize_output.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/emmintrin.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/core/UnsafeFromTH.h:
 
@@ -9007,6 +9064,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/jit/serialization/unpickler.h:
 
+/usr/lib/llvm-18/lib/clang/18/include/__stddef_max_align_t.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/cumprod_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_foreach_addcmul_native.h:
@@ -9098,10 +9157,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/dsplit.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/linalg_lstsq_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish_backward_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_sparse_coo_tensor_with_dims_and_tensors.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_sparse_bsr_tensor_unsafe.h:
 
@@ -9296,6 +9351,12 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_amp_foreach_non_finite_check_and_unscale.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/mkldnn_reorder_conv2d_weight_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/jit/runtime/argument_spec.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_amp_foreach_non_finite_check_and_unscale_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardtanh_backward_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/core/dispatch/OperatorOptions.h:
 
@@ -9665,6 +9726,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_conj_copy.h:
 
+/usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_foreach_frac_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/mkldnn_rnn_layer_native.h:
@@ -9718,8 +9781,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fft_ifftn.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_autograd_multiple_dispatch_view_copy_ops.h:
-
-/usr/local/include/opencv4/opencv2/core/saturate.hpp:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/argsort_native.h:
 
@@ -9786,10 +9847,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_logcumsumexp.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/stack_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_functorch_fallback_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/q_scale.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/lt.h:
 
@@ -9895,25 +9952,9 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/alias_copy_ops.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/floor_divide_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/conv_transpose2d.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/Exception.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/version.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_functorch_fallback_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/jit/frontend/name_mangler.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_fused_sgd_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/max_pool2d_backward.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_make_dual_copy.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/serialize.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_sobol_engine_scramble.h:
 
@@ -9989,8 +10030,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_histogramdd_from_bin_tensors_native.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_linalg_svd_meta.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/allclose_ops.h:
@@ -10010,10 +10049,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_linalg_slogdet_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/native_batch_norm_backward.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/cudnn_grid_sampler_backward_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/unbind_copy_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fmin_ops.h:
 
@@ -10092,6 +10127,10 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/SDPBackend.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/functional.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_min_seqlen_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any_value.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_linalg_det_ops.h:
 
@@ -10207,6 +10246,16 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_sparse_coo_tensor_with_dims_and_tensors_ops.h:
 
+/usr/include/c++/13/shared_mutex:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hann_window.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/view_as_complex_copy_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_jagged_dummy_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/mH_ops.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_log_softmax_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/any.h:
@@ -10232,10 +10281,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /usr/include/c++/13/bits/functexcept.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/concatenate.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_make_per_channel_quantized_tensor_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fake_quantize_per_channel_affine_cachemask_backward.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/clamp_ops.h:
 
@@ -10282,10 +10327,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_mkldnn_transpose_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_upsample_bilinear2d_aa_meta.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_convolution_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_mkldnn_transpose_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_reshape_from_tensor_ops.h:
 
@@ -10349,6 +10390,10 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_lengths_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/sparse_csr_tensor_ops.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fft_ifftshift_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/arg.h:
@@ -10359,6 +10404,10 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_lengths_ops.h:
 
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_max_seqlen_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/xor.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fake_quantize_per_tensor_affine_cachemask_backward_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/core/IListRef.h:
@@ -10366,6 +10415,10 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_offsets.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/rand_like.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fill_diagonal_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/data_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/concatenate_ops.h:
 
@@ -10429,6 +10482,14 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardshrink_backward_native.h:
 
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/equal.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/slow_conv_dilated3d.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_view_from_jagged_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/is_same_size_native.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_autograd_multiple_dispatch.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_tensor_size_native.h:
@@ -10488,6 +10549,10 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/softplus_backward_meta.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_thnn_differentiable_gru_cell_backward_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/options/transformercoder.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/nll_loss2d_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_coalesce.h:
 
@@ -10593,6 +10658,12 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/put_native.h:
 
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_values_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_fake_quantize_learnable_per_channel_affine_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/randperm_native.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/cudnn_convolution_relu_ops.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
@@ -10636,6 +10707,12 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/erf_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/histogram_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_make_dual_copy.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/serialize.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_scaled_dot_product_attention_math_for_mps_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_functional_sym_constrain_range_ops.h:
 
@@ -10719,6 +10796,14 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /usr/include/endian.h:
 
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_optional_filled_intlist_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/miopen_convolution_relu.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/AlignOf.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_slow_conv2d_forward_native.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/linalg_eigh_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/randint_like.h:
@@ -10767,8 +10852,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/xor.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_sparse_bsr_tensor_unsafe_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/detail/MTIAHooksInterface.h:
@@ -10809,7 +10892,13 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/lift_fresh.h:
 
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_sparse_coo_tensor_with_dims_and_tensors.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish_backward_native.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_grid_sampler_2d_cpu_fallback_backward_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/elu_backward_meta.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_sparse_csc_tensor_unsafe_native.h:
 
@@ -10981,27 +11070,29 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/data/dataloader/stateless.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_autograd_multiple_dispatch_view_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/rename_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/core/impl/DeviceGuardImplInterface.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/miopen_convolution_relu.h:
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/AlignOf.h:
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish_backward.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_slow_conv2d_forward_native.h:
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish_backward_ops.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_optional_filled_intlist_native.h:
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/cos_native.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/WrapDimUtils.h:
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/log2_native.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_optional_floatlist_native.h:
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardswish_native.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/max_pool2d_with_indices_native.h:
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/embedding_sparse_backward.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/hardtanh.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/BFloat16-inl.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/heaviside.h:
 
@@ -11049,6 +11140,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/huber_loss_backward.h:
 
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/c10/util/python_stub.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/huber_loss_backward_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/exponential_native.h:
@@ -11094,6 +11187,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/igammac_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/retain_grad_ops.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stddef_offsetof.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/imag_native.h:
 
@@ -11296,8 +11391,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/is_pinned_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/is_same_size.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/is_same_size_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_mps_convolution_ops.h:
 
@@ -11601,6 +11694,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/linalg_inv_ex_meta.h:
 
+/usr/lib/llvm-18/lib/clang/18/include/float.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fmin_meta.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/linalg_inv_ex_ops.h:
@@ -11802,8 +11897,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /usr/include/c++/13/bits/atomic_lockfree_defines.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/linear_backward_native.h:
-
-/usr/local/include/opencv4/opencv2/dnn/dnn.hpp:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/fractional_max_pool2d_native.h:
 
@@ -12021,8 +12114,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/mH_native.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/mH_ops.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/margin_ranking_loss.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/margin_ranking_loss_native.h:
@@ -12162,6 +12253,12 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any.h:
 
 /usr/include/c++/13/bits/stl_set.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_convolution_ops.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_mkldnn_transpose_ops.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/limits.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_weight_norm.h:
 
@@ -12571,6 +12668,10 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/neg_meta.h:
 
+/usr/local/include/opencv4/opencv2/dnn.hpp:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/neg_native.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_sparse_semi_structured_linear_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/nextafter_meta.h:
@@ -12667,8 +12768,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/nonzero_static_ops.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/norm.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/norm_except_dim.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/special_log_ndtr_meta.h:
@@ -12694,6 +12793,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_values.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/nuclear_norm_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_nested_get_offsets_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/one_hot_native.h:
 
@@ -12738,6 +12839,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/pad_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/pad_ops.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/pad_sequence_ops.h:
 
@@ -12999,10 +13102,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/random.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_fake_quantize_learnable_per_channel_affine_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/randperm_native.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/conv_tbc.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_indices_ops.h:
@@ -13093,8 +13192,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/relu6_ops.h:
 
-/usr/local/include/opencv4/opencv2/core/persistence.hpp:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/remainder_meta.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/renorm.h:
@@ -13104,6 +13201,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/acosh.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/renorm_native.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/renorm_ops.h:
 
@@ -13158,10 +13257,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/reshape_as_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/silu_backward_meta.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_thnn_fused_gru_cell_backward_ops.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/reshape_as_ops.h:
 
@@ -13523,6 +13618,12 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/softplus_ops.h:
 
+/usr/local/include/opencv4/opencv2/core/traits.hpp:
+
+/usr/include/c++/13/bits/specfun.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/softshrink.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/softshrink_backward_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/softshrink_backward_ops.h:
@@ -13544,6 +13645,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/detail/TensorDataContainer.h:
 
 /usr/include/c++/13/algorithm:
+
+/usr/lib/llvm-18/lib/clang/18/include/sanitizer/tsan_interface.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/numpy_T_native.h:
 
@@ -13582,8 +13685,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_autocast_to_full_precision.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/sparse_csr_tensor_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/sparse_csr_tensor_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/sparse_dim.h:
 
@@ -13683,8 +13784,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/special_expm1.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/chunk.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/special_expm1_native.h:
@@ -13746,8 +13845,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/trunc_native.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/special_laguerre_polynomial_l_ops.h:
-
-/usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/miopen_convolution_relu_ops.h:
 
@@ -14066,8 +14163,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/meshgrid.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/tanh_meta.h:
-
-/usr/local/include/opencv4/opencv2/core/matx.inl.hpp:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/tanh_ops.h:
 
@@ -14461,6 +14556,8 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/var_mean_native.h:
 
+/usr/lib/llvm-18/lib/clang/18/include/stddef.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/linalg_solve_triangular.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_unique_ops.h:
@@ -14827,8 +14924,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any_module_holder.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/any_value.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/multi_margin_loss_ops.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/modules/container/modulelist.h:
@@ -14911,10 +15006,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/options/transformer.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/nll_loss2d_ops.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/options/transformercoder.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/nn/options/transformerlayer.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/index_reduce.h:
@@ -14983,8 +15074,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/jit/api/module.h:
 
-/usr/local/include/opencv4/opencv2/core/optim.hpp:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/jit/api/object.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/jit/frontend/error_report.h:
@@ -15048,14 +15137,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/library.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/geometric.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/renorm_meta.h:
-
-/usr/include/asm-generic/errno.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/diagonal_copy_native.h:
 
@@ -15259,6 +15340,34 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /usr/include/c++/13/unordered_map:
 
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/take_native.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/deg2rad_native.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/retains_grad_ops.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/bartlett_window_native.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/geometric.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/renorm_meta.h:
+
+/usr/include/asm-generic/errno.h:
+
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_conj_physical.h:
 
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_test_functorch_fallback.h:
@@ -15369,26 +15478,6 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/take_native.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/deg2rad_native.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/retains_grad_ops.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/bartlett_window_native.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
 /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/mkldnn_max_pool3d_native.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
@@ -15397,21 +15486,39 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/elu_backward_meta.h:
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h:
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/norm.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h:
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_list.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+/usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/_thnn_fused_gru_cell_backward_ops.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/mmintrin.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/stdarg.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/masked_select_native.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/stdint.h:
+
+/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/sparse_resize_ops.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/xmmintrin.h:
+
+/usr/local/include/opencv4/opencv2/imgproc/segmentation.hpp:
 
 /usr/local/include/opencv4/opencv2/calib3d.hpp:
 
@@ -15430,37 +15537,3 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen
 /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:
 
 /usr/local/include/opencv4/opencv2/core/fast_math.hpp:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/sparse_bsr_tensor_ops.h:
-
-/usr/local/include/opencv4/opencv2/core/matx.hpp:
-
-/usr/local/include/opencv4/opencv2/core/neon_utils.hpp:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include/torch/types.h:
-
-/usr/local/include/opencv4/opencv2/core/ovx.hpp:
-
-/usr/include/c++/13/bits/specfun.h:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/softshrink.h:
-
-/usr/local/include/opencv4/opencv2/core/traits.hpp:
-
-/usr/local/include/opencv4/opencv2/core/types.hpp:
-
-/usr/local/include/opencv4/opencv2/core/utility.hpp:
-
-/usr/local/include/opencv4/opencv2/core/utils/logger.defines.hpp:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/feature_alpha_dropout_ops.h:
-
-/usr/local/include/opencv4/opencv2/core/utils/logger.hpp:
-
-/usr/local/include/opencv4/opencv2/core/version.hpp:
-
-/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/ATen/ops/neg_native.h:
-
-/usr/local/include/opencv4/opencv2/dnn.hpp:
-
-/usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp:

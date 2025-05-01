@@ -1,4 +1,6 @@
+#include <opencv2/highgui.hpp>
 #include <opencv2/opencv.hpp>
+#include <opencv2/core/ocl.hpp>
 #include <torch/torch.h>
 #include <torch/script.h>
 #include <iostream>
@@ -31,14 +33,17 @@ torch::Tensor preprocess_image(const cv::Mat& image) {
 }
 
 int main() {
+    cv::ocl::setUseOpenCL(true);
     try {
         // === OpenCV Demo: Basic Image Processing ===
         // Load image using OpenCV
-        cv::Mat image = cv::imread("docs/AI Hackathon Challenge 2025.jpeg");
+        cv::Mat image = cv::imread("deps/room.jpeg");
         if (image.empty()) {
             throw std::runtime_error("Could not load image");
         }
-        
+        /* cv::imshow("test",image);
+        // std::cin.get();
+        */
         // Convert to grayscale
         cv::Mat gray;
         cv::cvtColor(image, gray, cv::COLOR_BGR2GRAY);
@@ -55,7 +60,7 @@ int main() {
         // Load pre-trained model (e.g., ResNet18)
         torch::jit::script::Module model;
         try {
-            model = torch::jit::load("resnet18.pt");
+            model = torch::jit::load("deps/resnet18_scripted.pt");
             model.eval();
         } catch (const c10::Error& e) {
             throw std::runtime_error("Error loading model: " + std::string(e.what()));
@@ -81,7 +86,7 @@ int main() {
         }
         
         // === OpenCV Demo: Real-time Video Processing ===
-        cv::VideoCapture cap(0); // Open default camera
+        cv::VideoCapture cap("deps/Crowd walking on street.mp4"); // Open default camera
         if (!cap.isOpened()) {
             throw std::runtime_error("Could not open camera");
         }
@@ -93,7 +98,7 @@ int main() {
             
             // Apply real-time processing (e.g., face detection)
             cv::CascadeClassifier face_cascade;
-            face_cascade.load("haarcascade_frontalface_default.xml");
+            face_cascade.load("deps/haarcascade_frontalface_default.xml");
             
             std::vector<cv::Rect> faces;
             cv::Mat frame_gray;
