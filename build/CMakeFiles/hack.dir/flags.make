@@ -6,5 +6,5 @@ CXX_DEFINES = -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE
 
 CXX_INCLUDES = -isystem /usr/local/include/opencv4 -isystem /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include -isystem /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include
 
-CXX_FLAGS = -std=gnu++17 -D_GLIBCXX_USE_CXX11_ABI=1
+CXX_FLAGS = -g -std=gnu++17 -D_GLIBCXX_USE_CXX11_ABI=1
 

@@ -1,4 +1,4 @@
 deps/*
 docs/*
-.cache/*
 build/*
+.cache/*
