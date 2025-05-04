@@ -18,4 +18,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_executable(hack
     src/grokGen.cpp
 )
+add_executable(hackYolo
+    src/test.cpp
+)
 target_link_libraries(hack ${OpenCV_LIBS} ${TORCH_LIBRARIES})
+target_link_libraries(hackYolo ${OpenCV_LIBS} ${TORCH_LIBRARIES})

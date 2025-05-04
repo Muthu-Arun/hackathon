@@ -129,6 +129,19 @@ hack/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hack.dir/build.make CMakeFiles/hack.dir/build
 .PHONY : hack/fast
 
+#=============================================================================
+# Target rules for targets named hackYolo
+
+# Build rule for target.
+hackYolo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hackYolo
+.PHONY : hackYolo
+
+# fast build rule for target.
+hackYolo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/build
+.PHONY : hackYolo/fast
+
 src/grokGen.o: src/grokGen.cpp.o
 .PHONY : src/grokGen.o
 
@@ -153,6 +166,30 @@ src/grokGen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hack.dir/build.make CMakeFiles/hack.dir/src/grokGen.cpp.s
 .PHONY : src/grokGen.cpp.s
 
+src/test.o: src/test.cpp.o
+.PHONY : src/test.o
+
+# target to build an object file
+src/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
+
+src/test.i: src/test.cpp.i
+.PHONY : src/test.i
+
+# target to preprocess a source file
+src/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
+
+src/test.s: src/test.cpp.s
+.PHONY : src/test.s
+
+# target to generate assembly for a file
+src/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hack"
+	@echo "... hackYolo"
 	@echo "... src/grokGen.o"
 	@echo "... src/grokGen.i"
 	@echo "... src/grokGen.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
 .PHONY : help
 
 

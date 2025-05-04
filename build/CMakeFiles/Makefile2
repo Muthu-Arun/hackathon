@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/arun/projects/hackathon/build
 
 # The main recursive "all" target.
 all: CMakeFiles/hack.dir/all
+all: CMakeFiles/hackYolo.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/hack.dir/clean
+clean: CMakeFiles/hackYolo.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +101,32 @@ hack: CMakeFiles/hack.dir/rule
 CMakeFiles/hack.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hack.dir/build.make CMakeFiles/hack.dir/clean
 .PHONY : CMakeFiles/hack.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hackYolo.dir
+
+# All Build rule for target.
+CMakeFiles/hackYolo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arun/projects/hackathon/build/CMakeFiles --progress-num=3,4 "Built target hackYolo"
+.PHONY : CMakeFiles/hackYolo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hackYolo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arun/projects/hackathon/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hackYolo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arun/projects/hackathon/build/CMakeFiles 0
+.PHONY : CMakeFiles/hackYolo.dir/rule
+
+# Convenience name for target.
+hackYolo: CMakeFiles/hackYolo.dir/rule
+.PHONY : hackYolo
+
+# clean rule for target.
+CMakeFiles/hackYolo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/clean
+.PHONY : CMakeFiles/hackYolo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
