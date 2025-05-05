@@ -109,12 +109,12 @@ CMakeFiles/hack.dir/clean:
 CMakeFiles/hackYolo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arun/projects/hackathon/build/CMakeFiles --progress-num=3,4 "Built target hackYolo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/arun/projects/hackathon/build/CMakeFiles --progress-num=3,4,5 "Built target hackYolo"
 .PHONY : CMakeFiles/hackYolo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hackYolo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/arun/projects/hackathon/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arun/projects/hackathon/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hackYolo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arun/projects/hackathon/build/CMakeFiles 0
 .PHONY : CMakeFiles/hackYolo.dir/rule

@@ -20,6 +20,7 @@ add_executable(hack
 )
 add_executable(hackYolo
     src/test.cpp
+    src/detection/detector.cpp
 )
 target_link_libraries(hack ${OpenCV_LIBS} ${TORCH_LIBRARIES})
 target_link_libraries(hackYolo ${OpenCV_LIBS} ${TORCH_LIBRARIES})

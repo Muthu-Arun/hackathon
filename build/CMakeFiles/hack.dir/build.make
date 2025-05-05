@@ -73,15 +73,15 @@ CMakeFiles/hack.dir/src/grokGen.cpp.o: CMakeFiles/hack.dir/flags.make
 CMakeFiles/hack.dir/src/grokGen.cpp.o: /home/arun/projects/hackathon/src/grokGen.cpp
 CMakeFiles/hack.dir/src/grokGen.cpp.o: CMakeFiles/hack.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arun/projects/hackathon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hack.dir/src/grokGen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hack.dir/src/grokGen.cpp.o -MF CMakeFiles/hack.dir/src/grokGen.cpp.o.d -o CMakeFiles/hack.dir/src/grokGen.cpp.o -c /home/arun/projects/hackathon/src/grokGen.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hack.dir/src/grokGen.cpp.o -MF CMakeFiles/hack.dir/src/grokGen.cpp.o.d -o CMakeFiles/hack.dir/src/grokGen.cpp.o -c /home/arun/projects/hackathon/src/grokGen.cpp
 
 CMakeFiles/hack.dir/src/grokGen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hack.dir/src/grokGen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arun/projects/hackathon/src/grokGen.cpp > CMakeFiles/hack.dir/src/grokGen.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arun/projects/hackathon/src/grokGen.cpp > CMakeFiles/hack.dir/src/grokGen.cpp.i
 
 CMakeFiles/hack.dir/src/grokGen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hack.dir/src/grokGen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arun/projects/hackathon/src/grokGen.cpp -o CMakeFiles/hack.dir/src/grokGen.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arun/projects/hackathon/src/grokGen.cpp -o CMakeFiles/hack.dir/src/grokGen.cpp.s
 
 # Object files for target hack
 hack_OBJECTS = \
