@@ -9,6 +9,7 @@ find_package(Torch REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS}
 "/home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include"
+"src/"
 
 )
 set(CMAKE_CXX_STANDARD 17)

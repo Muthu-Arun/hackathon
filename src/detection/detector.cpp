@@ -1,36 +1,20 @@
-#include <ATen/core/TensorBody.h>
-#include <string_view>
-#include <torch/csrc/jit/api/module.h>
-#include <torch/torch.h>
-#include <torch/script.h>
-#include <opencv2/opencv.hpp>
-
+#include "detector.h"
 namespace detector {
-    class transformer{
-        public:
-            torch::jit::script::Module model;
 
-        public:
-            transformer() = default;
+            transformer::transformer() = default;
             //Load a transformer model
-            transformer(std::string_view model_path){
+            transformer::transformer(std::string_view model_path){
                 model = torch::jit::load(model_path.data());
             }
 
-        private:
-            const std::vector<double> mean = {0.485, 0.456, 0.406};
-            const std::vector<double> std = {0.229, 0.224, 0.225};
-            cv::Mat img_resized;
-            at::Tensor logits,boxes;
-            c10::intrusive_ptr<at::ivalue::Tuple> outputs;
-        private:
-            void pre_process_opencv_image(const cv::Mat& image){
+
+            void transformer::pre_process_opencv_image(const cv::Mat& image){
                 cv::resize(image, img_resized, cv::Size(800, 800));
                 cv::cvtColor(img_resized, img_resized, cv::COLOR_BGR2RGB);
                 img_resized.convertTo(img_resized, CV_32F, 1.0 / 255.0);
             }
 
-            void normalize(){
+            void transformer::normalize(){
                     // Normalize using ImageNet mean and std
                 std::vector<double> mean = {0.485, 0.456, 0.406};
                 std::vector<double> std = {0.229, 0.224, 0.225};
@@ -40,7 +24,7 @@ namespace detector {
                     channels[i] = (channels[i] - mean[i]) / std[i];
                 cv::merge(channels, img_resized);
             }
-            void infer(){
+            void transformer::infer(){
                 //Convert image to tensor
                 auto input_tensor = torch::from_blob(img_resized.data, {1, 800, 800, 3}).permute({0, 3, 1, 2}).contiguous();
                 input_tensor = input_tensor.to(torch::kF32);
@@ -55,7 +39,7 @@ namespace detector {
 
             }
     };
-    void draw_boxes(const at::Tensor& boxes,const at::Tensor& logits, cv::Mat& image){
+    void draw_boxes(const at::Tensor& boxes,const at::Tensor& logits,cv::Mat& image){
         float conf_thresh = 0.7;
         for (int i = 0; i < logits.size(0); ++i) {
             auto scores = logits[i].softmax(-1);
@@ -80,4 +64,3 @@ namespace detector {
             cv::putText(image, std::to_string(label), {x1, y1 - 10}, cv::FONT_HERSHEY_SIMPLEX, 0.5, {0, 255, 0}, 1);
         }
     }
-}
