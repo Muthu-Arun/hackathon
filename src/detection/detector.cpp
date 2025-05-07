@@ -15,7 +15,7 @@ namespace detector {
             }
 
             void transformer::normalize(){
-                    // Normalize using ImageNet mean and std
+                // Normalize using ImageNet mean and std
                 std::vector<double> mean = {0.485, 0.456, 0.406};
                 std::vector<double> std = {0.229, 0.224, 0.225};
                 std::vector<cv::Mat> channels(3);
@@ -38,7 +38,15 @@ namespace detector {
                 auto boxes = pred_boxes[0];   // [100, 4]
 
             }
-    };
+            std::tuple<at::Tensor,at::Tensor> transformer::run_inference(cv::Mat image){
+                pre_process_opencv_image(image);
+                normalize();
+                infer();
+                return std::tuple<at::Tensor,at::Tensor>(logits,boxes);
+
+            }
+
+    
     void draw_boxes(const at::Tensor& boxes,const at::Tensor& logits,cv::Mat& image){
         float conf_thresh = 0.7;
         for (int i = 0; i < logits.size(0); ++i) {
@@ -64,3 +72,4 @@ namespace detector {
             cv::putText(image, std::to_string(label), {x1, y1 - 10}, cv::FONT_HERSHEY_SIMPLEX, 0.5, {0, 255, 0}, 1);
         }
     }
+}
