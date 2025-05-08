@@ -1,0 +1,5 @@
+train: /home/arun/dev/APP/yolo/labels/images/train
+val: /home/arun/dev/APP/yolo/labels/images/val
+
+nc: 1  # Number of classes
+names: ['gunnyBags']  # Class name
