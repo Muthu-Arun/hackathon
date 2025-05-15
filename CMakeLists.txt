@@ -20,8 +20,10 @@ add_executable(hack
     src/grokGen.cpp
 )
 add_executable(hackYolo
+    # src/testYolo.cpp
     src/test.cpp
     src/detection/detector.cpp
+
 )
 target_link_libraries(hack ${OpenCV_LIBS} ${TORCH_LIBRARIES})
 target_link_libraries(hackYolo ${OpenCV_LIBS} ${TORCH_LIBRARIES})

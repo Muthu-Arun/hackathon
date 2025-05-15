@@ -1,4 +1,6 @@
 #include "detector.h"
+#include <string_view>
+#include <torch/csrc/jit/serialization/import.h>
 namespace detector {
 
             transformer::transformer() = default;
@@ -16,8 +18,7 @@ namespace detector {
 
             void transformer::normalize(){
                 // Normalize using ImageNet mean and std
-                std::vector<double> mean = {0.485, 0.456, 0.406};
-                std::vector<double> std = {0.229, 0.224, 0.225};
+
                 std::vector<cv::Mat> channels(3);
                 cv::split(img_resized, channels);
                 for (int i = 0; i < 3; ++i)
@@ -29,13 +30,13 @@ namespace detector {
                 auto input_tensor = torch::from_blob(img_resized.data, {1, 800, 800, 3}).permute({0, 3, 1, 2}).contiguous();
                 input_tensor = input_tensor.to(torch::kF32);
 
-                    // Run inference
+                // Run inference
                 auto outputs = model.forward({input_tensor}).toTuple();
                 auto pred_logits = outputs->elements()[0].toTensor(); // [1, 100, 91]
                 auto pred_boxes = outputs->elements()[1].toTensor();  // [1, 100, 4] - normalized cx,cy,w,h
 
-                auto logits = pred_logits[0]; // [100, 91]
-                auto boxes = pred_boxes[0];   // [100, 4]
+                logits = pred_logits[0]; // [100, 91]
+                boxes = pred_boxes[0];   // [100, 4]
 
             }
             std::tuple<at::Tensor,at::Tensor> transformer::run_inference(cv::Mat image){
@@ -46,7 +47,7 @@ namespace detector {
 
             }
 
-    
+
     void draw_boxes(const at::Tensor& boxes,const at::Tensor& logits,cv::Mat& image){
         float conf_thresh = 0.7;
         for (int i = 0; i < logits.size(0); ++i) {

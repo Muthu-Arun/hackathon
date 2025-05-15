@@ -8,8 +8,6 @@
 
 namespace detector {
     class transformer{
-        public:
-            torch::jit::script::Module model;
 
         public:
             transformer();
@@ -22,9 +20,11 @@ namespace detector {
             const std::vector<double> std = {0.229, 0.224, 0.225};
             cv::Mat img_resized;
             at::Tensor logits,boxes;
-            c10::intrusive_ptr<at::ivalue::Tuple> outputs;
+            // c10::intrusive_ptr<at::ivalue::Tuple> outputs;
             
         private:
+            torch::jit::script::Module model;
+
             void pre_process_opencv_image(const cv::Mat& image);
 
             void normalize();
