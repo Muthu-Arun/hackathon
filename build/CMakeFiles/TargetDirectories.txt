@@ -1,4 +1,3 @@
-/home/arun/projects/hackathon/build/CMakeFiles/hack.dir
 /home/arun/projects/hackathon/build/CMakeFiles/hackYolo.dir
 /home/arun/projects/hackathon/build/CMakeFiles/edit_cache.dir
 /home/arun/projects/hackathon/build/CMakeFiles/rebuild_cache.dir

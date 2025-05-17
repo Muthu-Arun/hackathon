@@ -16,14 +16,15 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_executable(hack
-    src/grokGen.cpp
-)
+# add_executable(hack
+#     src/grokGen.cpp
+# )
 add_executable(hackYolo
     # src/testYolo.cpp
-    src/test.cpp
+    # src/test.cpp
     src/detection/detector.cpp
+    src/test_transformer.cpp
 
 )
-target_link_libraries(hack ${OpenCV_LIBS} ${TORCH_LIBRARIES})
+# target_link_libraries(hack ${OpenCV_LIBS} ${TORCH_LIBRARIES})
 target_link_libraries(hackYolo ${OpenCV_LIBS} ${TORCH_LIBRARIES})

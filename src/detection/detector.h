@@ -5,7 +5,7 @@
 #include <torch/script.h>
 #include <opencv2/opencv.hpp>
 #include <tuple>
-
+#include <iostream>
 namespace detector {
     class transformer{
 
@@ -30,5 +30,5 @@ namespace detector {
             void normalize();
             void infer();
     };
-    void draw_boxes(const at::Tensor& boxes,const at::Tensor& logits,cv::Mat& image);
+    void draw_boxes(std::tuple<at::Tensor,at::Tensor>& output,cv::Mat& image);
     }

@@ -1,6 +1,8 @@
 #include "detector.h"
+#include <ATen/core/TensorBody.h>
 #include <string_view>
 #include <torch/csrc/jit/serialization/import.h>
+#include <tuple>
 namespace detector {
 
             transformer::transformer() = default;
@@ -48,17 +50,17 @@ namespace detector {
             }
 
 
-    void draw_boxes(const at::Tensor& boxes,const at::Tensor& logits,cv::Mat& image){
+    void draw_boxes(std::tuple<at::Tensor,at::Tensor>& output,cv::Mat& image){
         float conf_thresh = 0.7;
-        for (int i = 0; i < logits.size(0); ++i) {
-            auto scores = logits[i].softmax(-1);
+        for (int i = 0; i < std::get<0>(output).size(0); ++i) {
+            auto scores = std::get<0>(output)[i].softmax(-1);
             auto max_score = scores.max(/*dim=*/0);
             int label = std::get<1>(max_score).item<int>();
             float score = std::get<0>(max_score).item<float>();
     
             if (label == 91 || score < conf_thresh) continue; // 91 = no-object class
     
-            auto box = boxes[i]; // [cx, cy, w, h] normalized
+            auto box = std::get<1>(output)[i]; // [cx, cy, w, h] normalized
             float cx = box[0].item<float>() * image.cols;
             float cy = box[1].item<float>() * image.rows;
             float w  = box[2].item<float>() * image.cols;
