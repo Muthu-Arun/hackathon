@@ -1,8 +1,14 @@
 [
 {
   "directory": "/home/arun/projects/hackathon/build",
-  "command": "/usr/bin/clang++ -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -isystem /usr/local/include/opencv4 -isystem /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include -isystem /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include -g -std=gnu++17 -D_GLIBCXX_USE_CXX11_ABI=1 -o CMakeFiles/hack.dir/src/grokGen.cpp.o -c /home/arun/projects/hackathon/src/grokGen.cpp",
-  "file": "/home/arun/projects/hackathon/src/grokGen.cpp",
-  "output": "CMakeFiles/hack.dir/src/grokGen.cpp.o"
+  "command": "/usr/bin/clang++ -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/arun/projects/hackathon/src -isystem /usr/local/include/opencv4 -isystem /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include -isystem /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include -g -std=gnu++17 -D_GLIBCXX_USE_CXX11_ABI=1 -o CMakeFiles/hackYolo.dir/src/detection/detector.cpp.o -c /home/arun/projects/hackathon/src/detection/detector.cpp",
+  "file": "/home/arun/projects/hackathon/src/detection/detector.cpp",
+  "output": "CMakeFiles/hackYolo.dir/src/detection/detector.cpp.o"
+},
+{
+  "directory": "/home/arun/projects/hackathon/build",
+  "command": "/usr/bin/clang++ -DUSE_C10D_GLOO -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE -I/home/arun/projects/hackathon/src -isystem /usr/local/include/opencv4 -isystem /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include -isystem /home/arun/dev/cppLibs/libtorch-cxx11-abi-shared-with-deps-2.7.0+cpu/libtorch/include/torch/csrc/api/include -g -std=gnu++17 -D_GLIBCXX_USE_CXX11_ABI=1 -o CMakeFiles/hackYolo.dir/src/test_transformer.cpp.o -c /home/arun/projects/hackathon/src/test_transformer.cpp",
+  "file": "/home/arun/projects/hackathon/src/test_transformer.cpp",
+  "output": "CMakeFiles/hackYolo.dir/src/test_transformer.cpp.o"
 }
 ]

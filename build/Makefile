@@ -117,41 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hack
+# Target rules for targets named hackYolo
 
 # Build rule for target.
-hack: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hack
-.PHONY : hack
+hackYolo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hackYolo
+.PHONY : hackYolo
 
 # fast build rule for target.
-hack/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hack.dir/build.make CMakeFiles/hack.dir/build
-.PHONY : hack/fast
+hackYolo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/build
+.PHONY : hackYolo/fast
 
-src/grokGen.o: src/grokGen.cpp.o
-.PHONY : src/grokGen.o
+src/detection/detector.o: src/detection/detector.cpp.o
+.PHONY : src/detection/detector.o
 
 # target to build an object file
-src/grokGen.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hack.dir/build.make CMakeFiles/hack.dir/src/grokGen.cpp.o
-.PHONY : src/grokGen.cpp.o
+src/detection/detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/src/detection/detector.cpp.o
+.PHONY : src/detection/detector.cpp.o
 
-src/grokGen.i: src/grokGen.cpp.i
-.PHONY : src/grokGen.i
+src/detection/detector.i: src/detection/detector.cpp.i
+.PHONY : src/detection/detector.i
 
 # target to preprocess a source file
-src/grokGen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hack.dir/build.make CMakeFiles/hack.dir/src/grokGen.cpp.i
-.PHONY : src/grokGen.cpp.i
+src/detection/detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/src/detection/detector.cpp.i
+.PHONY : src/detection/detector.cpp.i
 
-src/grokGen.s: src/grokGen.cpp.s
-.PHONY : src/grokGen.s
+src/detection/detector.s: src/detection/detector.cpp.s
+.PHONY : src/detection/detector.s
 
 # target to generate assembly for a file
-src/grokGen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hack.dir/build.make CMakeFiles/hack.dir/src/grokGen.cpp.s
-.PHONY : src/grokGen.cpp.s
+src/detection/detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/src/detection/detector.cpp.s
+.PHONY : src/detection/detector.cpp.s
+
+src/test_transformer.o: src/test_transformer.cpp.o
+.PHONY : src/test_transformer.o
+
+# target to build an object file
+src/test_transformer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/src/test_transformer.cpp.o
+.PHONY : src/test_transformer.cpp.o
+
+src/test_transformer.i: src/test_transformer.cpp.i
+.PHONY : src/test_transformer.i
+
+# target to preprocess a source file
+src/test_transformer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/src/test_transformer.cpp.i
+.PHONY : src/test_transformer.cpp.i
+
+src/test_transformer.s: src/test_transformer.cpp.s
+.PHONY : src/test_transformer.s
+
+# target to generate assembly for a file
+src/test_transformer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hackYolo.dir/build.make CMakeFiles/hackYolo.dir/src/test_transformer.cpp.s
+.PHONY : src/test_transformer.cpp.s
 
 # Help Target
 help:
@@ -161,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hack"
-	@echo "... src/grokGen.o"
-	@echo "... src/grokGen.i"
-	@echo "... src/grokGen.s"
+	@echo "... hackYolo"
+	@echo "... src/detection/detector.o"
+	@echo "... src/detection/detector.i"
+	@echo "... src/detection/detector.s"
+	@echo "... src/test_transformer.o"
+	@echo "... src/test_transformer.i"
+	@echo "... src/test_transformer.s"
 .PHONY : help
 
 

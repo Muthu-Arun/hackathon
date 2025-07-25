@@ -1,4 +1,4 @@
-deps/*
-docs/*
-build/*
-.cache/*
+deps/
+docs/
+build/
+.cache/
